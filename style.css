@@ -1,0 +1,65 @@
+.container{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #ccc;
+  }
+  
+  .row{
+    display: flex;
+  }
+  
+  .row:nth-child(even) .brick:first-child, .row:nth-child(even) .brick:last-child{
+    width: 70px;
+  }
+  
+  .brick{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 2px;
+    display: table;
+  }
+
+  .vendido {
+    background-color: #bd5858;
+  }
+
+  .vacio{
+    background-color: gray;
+  }
+
+  .esquina{
+    background-color: gray;
+  }
+
+  html { 
+    background: url(fondo1.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    font-family: 'Antropos Freefont', arial;
+  }
+
+  h1,h2 {
+      text-align: center;
+      font-family: 'Antropos Freefont';
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #aaa;
+      color: lightyellow;
+  }
+
+  p {
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
+    padding: 1em 0;
+    margin: 0;
+    text-align:center;
+    color: black;
+    font-weight: bolder;
+}
